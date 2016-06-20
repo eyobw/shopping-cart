@@ -42,7 +42,7 @@
                             ng-click="cart.addItem(item.id, item.product_name, item.price, -1)">-</button>
                       </div>
                     </td>
-                    <td class="tdRight">{{item.price * item.quantity | currency}}</td>
+                    <td class="tdRight">{{item.price * item.quantity | currency : '€'}}</td>
                     <td class="tdCenter" title="remove from cart">
                         <a href="" ng-click="cart.addItem(item.id, item.product_name, item.price, -10000000)" >
                             <span class="glyphicon glyphicon-trash"/> 
