@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="shoppingApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Online</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/controller.js"></script>
+  </head>
+  <body>
+	  <div class="container">
+        <div class="row-fluid">
+            <div class="span10 offset1">
+                <h2>
+                    Simple Shop 
+                </h2>
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
